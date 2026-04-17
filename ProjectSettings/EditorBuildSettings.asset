@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: ae3c9675e4bd90f45b2a98960f50bf46
+  - enabled: 1
     path: Assets/Scenes/Mila - Pathfinder.unity
     guid: bb2c758af559bc0428b23c5066a6649f
   - enabled: 1
