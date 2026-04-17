@@ -75,7 +75,7 @@ public class BattleUIManager : MonoBehaviour
         ClearHand();
 
         if (cardPrefab == null || handContainer == null) return;
-
+        
         float totalWidth = (hand.Count - 1) * cardSpacing;
         float startX = -totalWidth / 2f;
 
@@ -90,6 +90,7 @@ public class BattleUIManager : MonoBehaviour
                 cardUI.Setup(hand[i], i);
 
             cardObjects.Add(cardObj);
+
         }
     }
 

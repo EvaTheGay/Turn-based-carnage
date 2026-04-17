@@ -3912,7 +3912,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BattleManager
   playerUnit: {fileID: 1300788405}
   enemyUnit: {fileID: 138220338}
-  playerDeck: []
+  playerDeck:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   handSize: 4
   enemyDeck:
   - {fileID: 0}

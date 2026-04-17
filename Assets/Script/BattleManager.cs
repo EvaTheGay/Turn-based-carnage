@@ -110,7 +110,7 @@ public class BattleManager : MonoBehaviour
     private void StartPlayerTurn()
     {
         CurrentState = BattleState.PlayerTurn;
-
+        
         playerUnit.TickDebuff();
         if (playerUnit.IsDead()) return;
 
